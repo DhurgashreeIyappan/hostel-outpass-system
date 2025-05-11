@@ -1,0 +1,134 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:contentDescription="Background Image" />
+
+    <!-- Centered Layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Header Text -->
+            <TextView
+                android:id="@+id/headerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kongu Engineering College"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Email Field -->
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Enter your email"
+                android:padding="12dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="textEmailAddress"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Password Field -->
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Forgot Password Button (Moved Here) -->
+            <Button
+                android:id="@+id/forgetPasswordButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textColor="@android:color/holo_blue_dark"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:visibility="visible" />
+
+            <!-- Login Button -->
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Selection Layout -->
+            <LinearLayout
+                android:id="@+id/selectionLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <!-- Warden Button -->
+                <Button
+                    android:id="@+id/wardenButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="Login as Warden"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="12dp"
+                    android:visibility="gone" />
+
+                <!-- Advisor Button -->
+                <Button
+                    android:id="@+id/advisorButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="Login as Advisor"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="12dp"
+                    android:visibility="invisible" />
+
+                <!-- Security Button -->
+                <Button
+                    android:id="@+id/securityButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="Login as Security"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

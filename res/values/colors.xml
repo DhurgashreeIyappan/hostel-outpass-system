@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Color Palette -->
+    <color name="primary">#6200EE</color> <!-- Main primary color -->
+    <color name="primaryVariant">#3700B3</color>
+    <color name="statusColor">#FFC107</color> <!-- Amber color for status -->
+    <color name="primaryDark">#3700B3</color> <!-- Another dark variant -->
+    <color name="onPrimary">#FFFFFF</color> <!-- Text color on primary background -->
+    <color name="green">#034943</color>
+    <color name="orange">#F47A6F</color>
+    <color name="lightGray">#626262</color>
+
+    <!-- Secondary Color Palette -->
+    <color name="secondary">#03DAC6</color> <!-- Accent or secondary color -->
+    <color name="onSecondary">#000000</color> <!-- Text color on secondary background -->
+
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color> <!-- Backgrounds, light themes -->
+    <color name="primaryTextColor">#626262</color> <!-- Main text color for light backgrounds -->
+    <color name="editTextBackground">#F5F5F5</color> <!-- Background for input fields -->
+    <color name="buttonBackground">#E20D1D</color> <!-- Background for buttons -->
+    <color name="buttonText">#FFFFFF</color>
+    <color name="buttonBackgroundLightBlue">#ADD8E6</color> <!-- Text color for buttons -->
+    <color name="blue">#8BC8DC</color>
+
+    <!-- Additional Text Colors -->
+    <color name="errorColor">#B00020</color> <!-- For error messages -->
+    <color name="hintColor">#0D0D0D</color> <!-- Hint text inside input fields -->
+    <color name="disabledTextColor">#9E9E9E</color> <!-- Disabled state text color -->
+
+    <!-- Added Colors -->
+    <color name="black">#000000</color> <!-- Black color -->
+    <color name="gray">#808080</color> <!-- Gray color -->
+</resources>

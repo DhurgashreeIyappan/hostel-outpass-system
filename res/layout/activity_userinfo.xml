@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Information"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="@color/gray"/>
+
+        <EditText
+            android:id="@+id/rollNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Roll Number"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="@color/gray"/>
+
+        <EditText
+            android:id="@+id/classEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Class"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="@color/gray"/>
+
+        <EditText
+            android:id="@+id/roomNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Hostel name and Room Number"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="@color/gray"/>
+
+        <Spinner
+            android:id="@+id/advisorSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColorHint="@color/gray"/>
+
+        <Spinner
+            android:id="@+id/wardenSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColorHint="@color/gray"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="emailEditText" type="id" />
+    <item name="loginButton" type="id" />
+    <item name="classEditText" type="id" />
+    <item name="rollNumberEditText" type="id" />
+    <item name="advisorSpinner" type="id" />
+    <item name="saveButton" type="id" />
+    <item name="nameEditText" type="id" />
+    <item name="timeFromTextView" type="id" />
+    <item name="timeToTextView" type="id" />
+    <item name="rejectButton" type="id" />
+    <item name="reasonTextView" type="id" />
+    <item name="acceptButton" type="id" />
+    <item name="newOutPassButton" type="id" />
+    <item name="reasonEditText" type="id" />
+    <item name="saveReasonButton" type="id" />
+    <item name="dateEditText" type="id" />
+    <item name="timeEditText" type="id" />
+    <item name="submitButton" type="id" />
+    <item name="approveButton" type="id" />
+    <item name="dateTextView" type="id" />
+    <item name="timeTextView" type="id" />
+    <item name="dateFromEditText" type="id" />
+    <item name="dateToEditText" type="id" />
+    <item name="timeToEditText" type="id" />
+    <item name="timeFromEditText" type="id" />
+    <item name="outTimeEditText" type="id" />
+    <item name="inTimeEditText" type="id" />
+    <item name="acceptedRequestListView" type="id" />
+    <item name="roomNumberTextView" type="id" />
+    <item name="inTimeTextView" type="id" />
+    <item name="outTimeTextView" type="id" />
+    <item name="dateFromTextView" type="id" />
+    <item name="dateToTextView" type="id" />
+    <item name="acceptWardenButton" type="id" />
+    <item name="rejectWardenButton" type="id" />
+    <item name="wardenSpinner" type="id" />
+    <item name="roomNumberEditText" type="id" />
+    <item name="statusTextView" type="id" />
+    <item name="selectionLayout" type="id" />
+    <item name="wardenButton" type="id" />
+    <item name="advisorButton" type="id" />
+    <item name="headerTextView" type="id" />
+    <item name="hostelnameTextView" type="id" />
+</resources>

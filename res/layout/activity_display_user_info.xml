@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:contentDescription="Background Image" />
+
+    <!-- ScrollView with Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Details"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/rollNumberTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/newOutpassButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Request New Outpass"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/viewStatusButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Status"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back to Main"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

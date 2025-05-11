@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/white">
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryTextColor"
+            android:layout_alignParentStart="true" />
+
+        <!-- Roll Number -->
+        <TextView
+            android:id="@+id/rollNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTextView"
+            android:layout_marginTop="6dp"
+            android:textSize="14sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_alignParentStart="true" />
+
+        <!-- Reason -->
+        <TextView
+            android:id="@+id/reasonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rollNumberTextView"
+            android:layout_marginTop="6dp"
+            android:textSize="14sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_alignParentStart="true" />
+
+        <!-- Date From -->
+        <TextView
+            android:id="@+id/dateFromTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reasonTextView"
+            android:layout_marginTop="6dp"
+            android:textSize="14sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_alignParentStart="true" />
+
+        <!-- Date To -->
+        <TextView
+            android:id="@+id/dateToTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dateFromTextView"
+            android:layout_marginTop="6dp"
+            android:textSize="14sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_alignParentStart="true" />
+
+        <!-- In Time -->
+        <TextView
+            android:id="@+id/inTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dateToTextView"
+            android:layout_marginTop="6dp"
+            android:textSize="14sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_alignParentStart="true" />
+
+        <!-- Out Time -->
+        <TextView
+            android:id="@+id/outTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inTimeTextView"
+            android:layout_marginTop="6dp"
+            android:textSize="14sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_alignParentStart="true" />
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/outTimeTextView"
+            android:layout_marginTop="6dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/statusColor"
+            android:layout_alignParentStart="true" />
+
+        <!-- Buttons Container -->
+        <LinearLayout
+            android:id="@+id/buttonsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/statusTextView"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <!-- Reject Button -->
+            <Button
+                android:id="@+id/rejectButton"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rounded_button"
+                android:text="Reject"
+                android:textColor="@color/white" />
+
+            <!-- Accept Button -->
+            <Button
+                android:id="@+id/acceptButton"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:text="Accept"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
